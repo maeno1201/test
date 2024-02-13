@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijiri Shuro's Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style2.css">
+    <script>
+
+
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__title header-title">
+                <!-- <a href="#"><img src="images/photoKnapsack.png" alt="ロゴ画像"></a> -->
+                <a href="#"><span>H</span>ijiri Shuro's Portfolio</a>
+            </h1>
+
+
+            <nav class="header__nav nav" id="js-nav">
+                <ul class="nav__items nav-items">
+                    <li class="nav-items__item"><a href="#selfIntro">自己紹介</a></li>
+                    <li class="nav-items__item"><a href="#gallery">画像ギャラリー</a></li>
+                    <li class="nav-items__item"><a href="#trainingTask">訓練課題</a></li>
+                </ul>
+            </nav>
+
+            <button class="header__hamburger hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="main-image"></div>
+
+    <div class="container">
+        <main>
+            <!-- === selec-introduction === -->
+            <div class="self-introduction">
+                <div class="heading2">
+                    <h2 id="selfIntro" class="jap">自己紹介</h2>
+                    <h2 class="eng">Self Introduction</h2>
+                </div>
+                <div class="image-text">
+                    <p>私の名前は<span>前野聖</span>です。大阪府高槻市出身で2023年7月13日よりディーキャリアITエキスパートにて、プログラミング学習に取り組んでおります。<br> どうぞよろしくお願いいたします。
+                    </p>
+                    <img src="./images/img02.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- === box === -->
+            <div class="box hobby">
+                <div class="heading3">
+                    <h3 class="jap">スキル</h3>
+                    <h3 class="eng">Skills</h3>
+                </div>
+                <div class="box-list listHobby">
+                    <ul>
+                        <li>・HTML/CSS, JavaScript, PHP/MySQL, WordPress (就労支援で習得)</li>
+                        <li>・Laravel, React, Spring (現在習得中)</li>
+                        <li>・C, Java, Perl, Python, PostgreSQL, Fortran (過去に使用)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- === gallery === -->
+            <div class="gallery-wrapper">
+                <h3 class="heading3-border" id="gallery">画像ギャラリー</h3>
+                <div class="gallerys">
+                    <div class="gallery">
+                        <div class="gallery-icon">
+                            <img src="./images/gallery11.jpg" alt="">
+                            <h4 class="logo">天覆う樹</h4>
+                            <p class="text-contents">これでもかと言わんばかりに枝が光を奪い合っています。</p>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery-icon">
+                            <img src="./images/gallery12.jpg" alt="">
+                            <h4 class="logo">渇ききった巨木</h4>
+                            <p class="text-contents">積み重ねられた年輪をもって大地にたたずみ、今か今かと待っています。</p>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery-icon">
+                            <img src="./images/gallery13.jpg" alt="">
+                            <h4 class="logo">緑のトンネル</h4>
+                            <p class="text-contents">やさしく樹の緑が迎える優しい光に満ちています。</p>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="gallery-icon">
+                            <img src="./images/gallery14.jpg" alt="">
+                            <h4 class="logo">厳寒の地にもえる樹</h4>
+                            <p class="text-contents">雪山をバックに、樹の生命が燃えています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- === training Task === -->
+            <div class="trainingTask">
+                <h3 class="heading3-border" id="trainingTask">訓練課題</h3>
+                <div class="imageApp">
+                    <p class="titleApp">JavaScript : ピアノアプリ</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/js/pianoApp/"><img src="./images/piano.png"
+                            alt=""></a>
+                    <p class="descriptionApp">制作期間 : 2週間<br>工夫した点 : 異なる音源によって実際に音を出力させ演奏させました。mp3音源とWebAudioAPIと二つの異なる音声により「キラキラ星」「チューリップ」の2曲が演奏されます。
+                    </p>
+                </div>
+                <div class="imageApp">
+                    <p class="titleApp">JavaScript/Vue : Todoアプリ</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/js/todoApp/"><img src="./images/todoApp.png"
+                            alt=""></a>
+                    <p class="descriptionApp">制作期間 : 1日<br>工夫した点 : JavaScriptにずいぶん慣れてから作成いたしました。基本的なCRUD操作を組み込みました。また、似たような関数をできるだけまとめながら可読性を重視して作成いたしました。
+                        はじめにJavaScriptで作成し、そのあとVueで作成いたしました。
+                    </p>
+                </div>
+                <div class="imageApp">
+                    <p class="titleApp">PHP/MySQL : ECサイト</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/ec_site_ver2/"><img
+                            src="./images/ECsite.png" alt=""></a>
+                    <p class="descriptionApp">制作期間 : 6日間<br>工夫した点 : ECサイトですので何より安全性に注意いたしました。利用者が安心して当サイトを利用できるように、ログインやユーザ登録において万が一にも過ちが起きないようにフォア・バック両サイドにおいてバリデーションを行いました。
+                    </p>
+                </div>
+                <div class="imageApp">
+                    <p class="titleApp">WordPress</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/wp/"><img src="./images/wordPress.png"
+                            alt=""></a>
+                    <p class="descriptionApp">制作期間 : 3日間<br>工夫した点 : 仮想の企業サイトにおいてブログのカテゴリーや配色などを工夫し、閲覧していただく方にできるかぎり読みやすいサイトになるよう心掛けました。
+                    </p>
+                </div>
+                <div class="imageApp">
+                    <p class="titleApp">PHP/MySQL : Blog</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/blog/"><img src="./images/blogApp.png"
+                            alt=""></a>
+                    <p class="descriptionApp">制作期間 : 7日間<br>工夫した点 : 只今作成中。すべてを初めから独自に設計し作成しています。とりわけバックエンドの仕事を意識してユーザフレンドリーな機能になるにはどのような工夫が必要であるかを、基本に立ち返り一から学びなおしております。
+                    </p>
+                </div>
+                <div class="imageApp">
+                    <p class="titleApp">PHP/MySQL : Scheduler</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/scheduler/"><img src="./images/schedulerApp.png"
+                            alt=""></a>
+                    <p class="descriptionApp">制作期間 : 4日間<br>工夫した点 : すべてを初めから独自に設計し作成しています。とりわけバックエンドの仕事を意識してユーザフレンドリーな機能になるにはどのような工夫が必要であるかを、基本に立ち返り一から学びなおしております。
+                    </p>
+                </div>
+                <div class="imageApp">
+                    <p class="titleApp">React : テストページ</p>
+                    <a href="https://portfolio02.dc-itex.com/takatsuki/0001/blog/"><img src="./images/blogReact.png"
+                            alt=""></a>
+                    <p class="descriptionApp">工夫した点 : 只今作成中。すべてを初めから独自に設計し作成しています。
+                    </p>
+                </div>        
+                <div class="imageApp">
+                    <p class="titleApp">Laravel : 簡易掲示板サイト</p>
+                    <a href="#"><img src="./images/BBSLaravel.png"
+                            alt=""></a>
+                    <p class="descriptionApp">工夫した点 : 只今作成中。デプロイに必要な環境情報に限りがあり、残念ながらローカル環境で動作するに踏みとどまっております。バックエンドを志望するにあたっては必ずものにすべきスキルであるので現在奮闘中です。
+                    </p>
+                </div>    
+      
+            </div>
+
+            <div class="listOfBooks">
+                <h3 class="heading3-border" id="trainingTask">これまで読破した本 : <a href="https://portfolio02.dc-itex.com/takatsuki/0001/selfIntroduction/booklist.html">こちらからご覧ください</a></h3>
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div>フッターエリア</div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
